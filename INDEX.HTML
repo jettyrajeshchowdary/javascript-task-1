@@ -1,0 +1,27 @@
+
+<html>
+<head>
+  
+  
+  <link rel="stylesheet" href="styles.css">
+  <title>Expense Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <div>
+      <label for="expenseInput">Enter Expense:</label>
+      <input type="text" id="expenseInput" class="form-control">
+      <button onclick="addExpense()" class="btn btn-primary mt-2">Add Expense</button>
+    </div>
+    <div class="mt-3">
+      <h3>Expenses</h3>
+      <ul id="expenseList" class="list-group">
+      </ul>
+      <p>Total Expenses: <span id="totalExpenses">$0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
